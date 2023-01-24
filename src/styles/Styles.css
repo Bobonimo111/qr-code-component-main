@@ -1,0 +1,59 @@
+main{
+    background-image: url(/src/images/favicon-32x32.png);
+    height: 100vh;
+    width: 100vw;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: hsl(212, 45%, 89%);
+    width: calc(100vw - 100px);
+    height: calc(100vh - 250px);
+    min-height: 575px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.164);
+    margin: auto 0;
+}
+.container > div{
+    background-color: hsl(0, 0%, 100%);
+    height: 475px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+
+    font-family: 'Outfit';
+    
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.068);
+} 
+
+.imagem > img{
+    height: 280px;
+    border-radius: 30px;
+    margin-top:-4px;
+}
+.titulo{
+    font-size: 15px;
+    font-weight: 700;
+}
+.conteudo{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
+.rodape{
+    position: fixed;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+} 
