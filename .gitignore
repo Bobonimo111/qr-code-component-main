@@ -15,6 +15,6 @@
 .DS_Store
 .prettierignore
 
-.README
-.README-template
-\design
+.README.md
+.README-template.md
+/design
